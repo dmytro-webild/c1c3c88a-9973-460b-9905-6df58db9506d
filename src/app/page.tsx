@@ -145,6 +145,7 @@ export default function LandingPage() {
       gridVariant="four-items-2x2-equal-grid"
       useInvertedBackground={false}
       carouselMode="buttons"
+      animationType="slide-up"
       products={[
         {
           id: "p1",          name: "Pepperoni Bacon Pizza",          price: "$24.99",          imageSrc: "http://img.b2bpic.net/free-photo/delicious-neapolitan-pizza-board_78826-3286.jpg",          imageAlt: "Pepperoni Bacon Pizza",          onProductClick: () => {},
